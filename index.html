@@ -3,46 +3,105 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Заголовок страницы</title>
+    <title>Анна Жарова — портфолио</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
-  
-    <meta property="og:title" content="Заголовок страницы в OG">
-    <meta property="og:description" content="Описание страницы в OG">
-    <meta property="og:image" content="https://example.com/image.jpg">
-    <meta property="og:url" content="https://example.com/">
   </head>
   <body>
     <header>
-      <h1>Это мой сайт</h1>
-      <p>Он хороший</p>
-      <nav>
-        <ul>
-          <li><a href="index.html">Эта страница</a></li>
-          <li><a href="catalog.html">Другая страница</a></li>
-        </ul>
-      </nav>
+      <h1 class="title">Портфолио Анны Жаровой</h1>
     </header>
     <main>
-      <article>
-        <section>
-          <h2>Первая секция</h2>
-          <p>Она обо мне</p>
-          <img src="images/image.png" alt="Человек и пароход">
-          <p>Но может быть и о семантике, я пока не решил.</p>
-        </section>
-        <section>
-          <h2>Вторая секция</h2>
-          <p>Она тоже обо мне</p>
-        </section>
-        <section>
-          <h2>И третья</h2>
-          <p>Вы уже должны были начать догадываться.</p>
-        </section>
-      </article>
+      <section>
+        <div class="container">
+          <h2 class="visually-hidden">Реализованные сайты</h2>
+          <div class="wrapper">
+            <article class="article">
+              <h3>Седона</h3>
+              <picture>
+                <source media="(min-width: 1150px)" srcset="img/sedona.webp">
+                <img class="screen" src="img/sedona.jpg" width="457" height="472" alt="Главная страница Седона">
+              </picture>
+              <a href="https://github.com/annazharova/483953-sedona-32">Репозиторий «Седона»</a>
+              <ul>
+                <li><a href="483953-sedona-32/index.html">Главная</a></li>
+                <li><a href="483953-sedona-32/catalog.html">Каталог</a></li>
+              </ul>
+            </article>
+            <article class="article">
+              <h3>Мишка</h3>
+              <picture>
+                <source media="(min-width: 1150px)" srcset="img/mishka.webp">
+                <img class="screen" src="img/mishka.jpg" width="457" height="472" alt="Главная страница Мишка">
+              </picture>
+              <a href="https://github.com/annazharova/483953-mishka-24">Репозиторий «Мишка»</a>
+              <ul>
+                <li><a href="483953-mishka-24/index.html">Главная</a></li>
+                <li><a href="483953-mishka-24/catalog.html">Каталог</a></li>
+                <li><a href="483953-mishka-24/form.html">Форма заказа</a></li>
+              </ul>
+            </article>
+            <article class="article">
+              <h3>Drink2Go</h3>
+              <picture>
+                <source media="(min-width: 1150px)" srcset="img/drink2go.webp">
+                <img class="screen" src="img/drink2go.jpg" width="457" height="472" alt="Главная страница Drink to Go">
+              </picture>
+              <a href="https://github.com/annazharova/Drink2Go">Репозиторий «Drink2Go»</a>
+              <ul>
+                <li><a href="Drink2Go/index.html">Главная</a></li>
+              </ul>
+            </article>
+            <article class="article">
+              <h3>Круизы в Антарктику</h3>
+              <picture>
+                <source media="(min-width: 1150px)" srcset="img/antarctic.webp">
+                <img class="screen" src="img/antarctic.jpg" width="457" height="472" alt="Главная страница Круизы в Антарктику">
+              </picture>
+              <a href="https://github.com/annazharova/antarctic">Репозиторий «Круизы в Антарктику»</a>
+              <ul>
+                <li><a href="antarctic/index.html">Главная</a></li>
+              </ul>
+            </article>
+            <article class="article">
+              <h3>Печатные платы</h3>
+              <picture>
+                <source media="(min-width: 1150px)" srcset="img/smart-device.webp">
+                <img class="screen" src="img/smart-device.jpg" width="457" height="472" alt="Главная страница Печатные платы">
+              </picture>
+              <a href="https://github.com/annazharova/smartdevice">Репозиторий «Печатные платы»</a>
+              <ul>
+                <li><a href="smartdevice/index.html">Главная</a></li>
+              </ul>
+            </article>
+            <article class="article">
+              <h3>Фитнес-центр</h3>
+              <picture>
+                <source media="(min-width: 1150px)" srcset="img/fitness.webp">
+                <img class="screen" src="img/fitness.jpg" width="457" height="472" alt="Главная страница Фитнес-центра">
+              </picture>
+              <a href="https://github.com/annazharova/fitness">Репозиторий «Фитнес-центр»</a>
+              <ul>
+                <li><a href="fitness/index.html">Главная</a></li>
+              </ul>
+            </article>
+            <article class="article">
+              <h3>Кекстаграм</h3>
+              <picture>
+                <source media="(min-width: 1150px)" srcset="img/kekstagram.webp">
+                <img class="screen" src="img/kekstagram.jpg" width="457" height="472" alt="Главная страница Кекстаграм">
+              </picture>
+              <a href="https://github.com/annazharova/483953-kekstagram-25/">Репозиторий «Кекстаграм»</a>
+              <ul>
+                <li><a href="fitness/index.html">Главная</a></li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
-      <p>Сюда бы я вписал информацию об авторе и ссылки на другие сайты</p>
+      <p><a class="mail-link" href="mailto:zharova.anna.v@gmail.com">zharova.anna.v@gmail.com</a></p>
     </footer>
-    <!-- сюда можно подключить jquery <script src="scripts/app.js" defer></script> -->
   </body>
 </html>
